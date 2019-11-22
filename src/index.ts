@@ -24,6 +24,7 @@ export default plugin;
 export { default as createElement } from './createElement';
 export { SetupContext };
 export { createComponent, ComponentRenderProxy, PropType, PropOptions } from './component';
+export { getCurrentVM, getCurrentVue } from './runtimeContext';
 
 export * from './apis/state';
 export * from './apis/lifecycle';
